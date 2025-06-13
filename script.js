@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Define an array of fun messages
     const messages = [
-        "You are awesome! 😃",
+        "You are awesome! 💀",
         "Keep shining! ✨",
         "Coding is fun! 💻",
         "Have a great day! 🌞",
