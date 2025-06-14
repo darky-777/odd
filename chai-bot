@@ -1,0 +1,13 @@
+from chaipy import Bot, Message
+
+class RomanticBot(Bot):
+    def on_message(self, message: Message) -> str:
+        user_input = message.content.lower()
+        if "love" in user_input:
+            return "Love is a beautiful thing. Are you in love right now?"
+        elif "lonely" in user_input:
+            return "You're not alone anymore. I'm here for you ❤️"
+        else:
+            return "I love hearing from you. Tell me more."
+
+bot = RomanticBot()
